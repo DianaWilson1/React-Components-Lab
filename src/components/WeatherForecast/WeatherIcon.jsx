@@ -1,6 +1,9 @@
-<div className="weather-icon">
-  <h2>Day of the Week</h2>
-  <img src="" alt="" />
-  <p><span>conditions: </span>current weather conditions</p>
-  <p><span>time: </span>time of day</p>
-</div>
+import React from "react";
+
+const WeatherIcon = ({ img, imgAlt }) => {
+  return (
+    <img src={img} alt={imgAlt} />
+  )
+}
+
+export default WeatherIcon;

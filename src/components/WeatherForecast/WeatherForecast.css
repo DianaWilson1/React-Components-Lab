@@ -3,7 +3,7 @@ section {
 }
 
 section .weather {
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
   flex: 1;
   padding: 10px;
   text-align: center;
@@ -11,4 +11,5 @@ section .weather {
 
 .weather span {
   font-weight: bold;
+  color: white;
 }
